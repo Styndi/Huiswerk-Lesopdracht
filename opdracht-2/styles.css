@@ -43,6 +43,15 @@ form {
 }
 
 /*2.5*/
-.five h1 {
-
+.five {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+article {
+    flex-basis: 400px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
